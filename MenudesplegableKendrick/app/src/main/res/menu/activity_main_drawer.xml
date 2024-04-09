@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+
+        <item
+            android:id="@+id/fragment_configuracion"
+            android:icon="@drawable/baseline_build_24"
+            android:title="@string/action_settings" />
+
+        <item
+            android:id="@+id/calificaciones"
+            android:icon="@drawable/baseline_checklist_24"
+            android:title="Calificaciones" />
+
+        <item
+            android:id="@+id/imagenes"
+            android:icon="@drawable/baseline_image_24"
+            android:title="Imagenes" />
+
+        <item
+            android:id="@+id/videos"
+            android:icon="@drawable/baseline_videocam_24"
+            android:title="Videos" />
+    </group>
+</menu>
